@@ -1,0 +1,382 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+/*colores:
+#FFFFFF blanco
+#C92858 rosa osc
+#D45B89 rosa suave
+#A9BA59 verde */
+
+/*header*/
+.cabecerafijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffffd5;
+    color: black;
+    padding: 10px 0;
+    z-index: 1000;
+    font-family: "Alegreya Sans";
+}
+
+.cajaprincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.Logo img {
+    height: 60px;
+}
+
+.menubotones ul {
+    list-style: none;
+    padding: 1;
+    margin: 0;
+}
+
+ .menubotones ul li {
+    display: inline-block;
+    margin-left: 20px;
+ }
+
+ .menubotones ul li:first-child {
+    margin-left: 0;
+ }
+
+ .menubotones ul li a {
+    color: #C92858;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+ }
+
+ /*
+ .menubotones ul li a:hover {
+    background-color: #C92858
+ } */
+
+ .boton {
+    display: inline-block;
+    padding: 15px 40px;
+    /*background-color: #D45B89;*/
+    color: #C92858;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;;
+ }
+
+ .boton:hover {
+    /*background-color: #C92858;*/
+    color: #D45B89;
+ }
+
+ /* 1era seccion */
+
+ .primera-seccion {
+    padding: 0 0;
+    text-align: center;
+    font-family: "Alegreya Sans";
+    background-image: url(../imagen/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor1 {
+    max-width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: "Abril Fatface";
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.boton1 {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #D45B89;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;;
+ }
+
+ .boton1:hover {
+    background-color: #C92858;
+    color: #ffffff;
+ }
+
+/* 2da seccion arreglos*/
+
+.segunda-seccion {
+    background-color: #f1d5e0;
+    padding: 88px;
+    font-family: "Alegreya Sans";
+    height: 700px;
+}
+
+.segunda-seccion h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    font-family: "Abril Fatface";
+}
+
+.segunda-seccion h3{
+    font-family: "Abril Fatface";
+}
+
+.segunda-seccion p {
+    text-align: center;
+    color: black;
+}
+
+.contenedor2 {
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botoncolumna2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.botoncolumna2 a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #A9BA59;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botoncolumna2 a:hover {
+    background-color: #91a04d;
+}
+
+.columna2 {
+    flex: 1;
+    margin: 50px;
+    text-align: center;
+}
+
+.columna2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.columna2:hover img {-webkit-transform:scale(0.8);transform:scale(0.8);}
+.columna2 {overflow:hidden;}
+
+/* 3era seccion macetas*/
+
+.tercera-seccion {
+    background-color: #f1d5e0;
+    padding: 88px;
+    font-family: "Alegreya Sans";
+    height: 700px;
+}
+
+.tercera-seccion h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    font-family: "Abril Fatface";
+}
+
+.tercera-seccion h3{
+    font-family: "Abril Fatface";
+}
+
+.tercera-seccion p {
+    text-align: center;
+    color: black;
+}
+
+.contenedor3 {
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botoncolumna3 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.botoncolumna3 a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #A9BA59;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botoncolumna3 a:hover {
+    background-color: #91a04d;
+}
+
+.columna3 {
+    flex: 1;
+    margin: 50px;
+    text-align: center;
+}
+
+.columna3 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 300px;
+    border: 4px solid #C92858;
+}
+
+.columna3:hover img {-webkit-transform:scale(0.8);transform:scale(0.8);}
+.columna3 {overflow:hidden;}
+
+/* 4ta seccion, nosotros*/
+
+.cuarta-seccion {
+    background-color: #f1d5e0;
+    padding: 50px 0;
+    font-family: "Alegreya Sans";
+    border-radius: 5px;
+}
+
+.contenedor4 {
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.division {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.imagen4 img {
+    max-width: 100%;
+    height: 350px;
+    border-radius: 3px;
+}
+
+.division h1 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.division p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.division a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #A9BA59;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.division a:hover {
+    background-color: #91a04d;
+}
+
+/* 5ta seccioon, mvv*/
+
+.quinta-seccion {
+    background-color: #f1d5e0;
+    padding: 10px;
+    font-family: "Alegreya Sans";
+    height: 350px;
+}
+
+.quinta-seccion h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    font-family: "Abril Fatface";
+}
+
+.quinta-seccion p {
+    text-align: center;
+    color: black;
+    margin: 20px;
+}
+
+.contenedor5 {
+    height: 300px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+.contenedorfooter {
+    width: 100%;
+    background-color: #C92858;
+    font-family: "Alegreya Sans";
+}
+
+.contenedorfooter h3 {
+    text-align: center;
+    margin-bottom: 2em;
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+}
+
+.contenedorfooter p {
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin: 5px;
+    padding: 5px;
+}
